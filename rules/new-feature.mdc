@@ -1,0 +1,10 @@
+---
+alwaysApply: false
+---
+
+When I mention @new-feature, follow this workflow:
+1. Restate the feature in 2-3 sentences and list what's out of scope.
+2. List the files you expect to create or change, and why.
+3. Write the numbered plan. Wait for my OK.
+4. Build one step at a time, running lint and tests after each.
+5. Finish with a short handoff: what changed, how to try it, what's left, and the Definition of done ledger.

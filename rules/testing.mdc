@@ -1,0 +1,10 @@
+---
+globs: **/*.test.ts, **/*.test.tsx, tests/**
+alwaysApply: false
+---
+
+- Run a single test file with {{pnpm test path/to/file}}; run the full suite before saying done.
+- When fixing a bug, first write a test that fails because of the bug, then fix the code.
+- Never use .skip, .only, or delete an assertion to make a suite pass. If a test is wrong, say why and ask.
+- Test behavior a user would notice, not private implementation details.
+- Mock network calls at the boundary ({{msw / fetch mock}}), never the code under test.

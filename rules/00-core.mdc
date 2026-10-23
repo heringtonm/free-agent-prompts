@@ -1,0 +1,18 @@
+---
+description: Core working agreement for every chat in this repo
+alwaysApply: true
+---
+
+# How to work in this project
+- Stack: {{e.g. Next.js 15 + TypeScript + Supabase}}. Package manager: {{pnpm}}. Never switch it.
+- Before any change bigger than a one-line fix, write a numbered plan (max 7 steps) and wait for my OK.
+- Do one step at a time. After each step, run {{pnpm lint && pnpm test}} and fix what breaks before moving on.
+- Touch only the files the step needs. Don't reformat or rename unrelated code.
+- Don't add a dependency without asking. Prefer what's already in package.json.
+- If something is unclear, ask one short question instead of guessing.
+- Never edit: {{.env*, generated/, applied migrations, lockfiles by hand}}.
+
+# Definition of done
+Before saying a task is done, list each claim (builds, tests pass, bug fixed)
+and mark it VERIFIED with the exact command and its real output, FAILED, or NOT RUN.
+Never skip, delete, or weaken a test to make it pass.

@@ -1,0 +1,11 @@
+---
+globs: src/app/**/*.tsx, src/components/**/*.tsx
+alwaysApply: false
+---
+
+- Reuse existing components in {{src/components/ui/}} before creating new ones. Search first.
+- Named exports only. One component per file, under ~200 lines; split if it grows.
+- Style with {{Tailwind}} classes only. No inline style objects, no new CSS files.
+- Every async UI state needs loading, empty, and error states.
+- Every form input has a label. Buttons and links must be usable by keyboard.
+- Don't fetch data in client components if a server component or existing hook can do it.

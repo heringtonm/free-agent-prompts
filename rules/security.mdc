@@ -1,0 +1,11 @@
+---
+description: Use when touching auth, API routes, database queries, env vars, payments, or user input
+alwaysApply: false
+---
+
+- Secrets come from environment variables only. Never hard-code keys, never print them, never commit .env.
+- Every API route checks the user is signed in and allowed to touch that record (no trusting IDs from the client).
+- Validate all input at the boundary with {{zod}} before using it.
+- Use parameterized queries or the ORM; never build SQL with string concatenation.
+- {{Supabase}}: never expose the service-role key to the browser; keep row-level security on.
+- If a change weakens auth or validation, stop and tell me instead of doing it.

@@ -1,0 +1,12 @@
+{
+  "name": "free-agent-prompts",
+  "version": "1.0.0",
+  "description": "Free agent prompts: 6 Agent Skills (done-check, code reviewer, bug explainer, README writer, inbox triager, game guide summarizer), Cursor rules, and CLAUDE.md / AGENTS.md templates.",
+  "author": { "name": "Michael Herington" },
+  "homepage": "https://agentpromptsatoz.com",
+  "repository": "https://github.com/heringtonm/free-agent-prompts",
+  "license": "MIT",
+  "keywords": ["agent-skills", "cursor-rules", "claude-md", "agents-md", "prompts", "vibe-coding"],
+  "rules": "rules/",
+  "skills": "skills/"
+}
