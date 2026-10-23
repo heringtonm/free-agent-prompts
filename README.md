@@ -17,7 +17,7 @@ npx skills add heringtonm/free-agent-prompts --skill agent-done-check
 
 ## What's inside
 
-### `skills/` : 6 Agent Skills (SKILL.md)
+### `skills/` : 7 Agent Skills (SKILL.md)
 
 | Skill | What it does |
 |---|---|
@@ -27,6 +27,7 @@ npx skills add heringtonm/free-agent-prompts --skill agent-done-check
 | [readme-writer](skills/readme-writer/SKILL.md) | Writes a README using only facts in the input; leaves TODOs instead of inventing details. |
 | [inbox-triager](skills/inbox-triager/SKILL.md) | Sorts pasted emails into Act now / Reply / Read later / Archive. Drafts only, never sends. |
 | [game-guide-summarizer](skills/game-guide-summarizer/SKILL.md) | Turns a long game guide or patch notes into a short, spoiler-aware cheat sheet. |
+| [security-watch](skills/security-watch/SKILL.md) | Read-only check of your projects against a dated table of patched PHP, Node, Next.js and React versions and two known malicious packages (last verified 2026-10-23). Reports what to update with sources; changes nothing without your OK. |
 
 ### `rules/` : Cursor rules (.mdc)
 
