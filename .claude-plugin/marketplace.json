@@ -1,0 +1,20 @@
+{
+  "name": "agent-prompts-a-to-z",
+  "owner": { "name": "Michael Herington", "url": "https://agentpromptsatoz.com" },
+  "metadata": { "description": "Free Agent Skills from Agent Prompts A to Z.", "version": "1.0.0" },
+  "plugins": [
+    {
+      "name": "free-agent-prompts",
+      "source": "./",
+      "description": "7 free Agent Skills: done-check, code reviewer, bug explainer, README writer, inbox triager, game guide summarizer, security watch.",
+      "version": "1.0.0",
+      "author": { "name": "Michael Herington" },
+      "homepage": "https://agentpromptsatoz.com",
+      "repository": "https://github.com/heringtonm/free-agent-prompts",
+      "license": "MIT",
+      "keywords": ["agent-skills", "claude-code", "prompts", "vibe-coding"],
+      "strict": false,
+      "skills": ["./skills/"]
+    }
+  ]
+}

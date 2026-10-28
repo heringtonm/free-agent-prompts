@@ -15,6 +15,13 @@ npx skills add heringtonm/free-agent-prompts --list
 npx skills add heringtonm/free-agent-prompts --skill agent-done-check
 ```
 
+In Claude Code, add it as a plugin marketplace:
+
+```
+/plugin marketplace add heringtonm/free-agent-prompts
+/plugin install free-agent-prompts@agent-prompts-a-to-z
+```
+
 ## What's inside
 
 ### `skills/` : 7 Agent Skills (SKILL.md)
