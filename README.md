@@ -1,6 +1,6 @@
 # Free Agent Prompts
 
-Free, copy-paste prompt packs for AI coding agents and vibe coders, from [Agent Prompts A to Z](https://agentpromptsatoz.com). Plain Markdown: read any file before you use it.
+Production guardrails for Cursor & Claude Code: stop your AI agent from shipping broken builds, missing RLS, and fake "done" states. Free, tested rules and skills from [Agent Prompts A to Z](https://agentpromptsatoz.com/). Plain Markdown: read any file before you use it.
 
 ## Install the Agent Skills
 
@@ -24,7 +24,7 @@ In Claude Code, add it as a plugin marketplace:
 
 ## What's inside
 
-### `skills/` : 7 Agent Skills (SKILL.md)
+### `skills/` : 8 Agent Skills (SKILL.md)
 
 | Skill | What it does |
 |---|---|
@@ -35,6 +35,7 @@ In Claude Code, add it as a plugin marketplace:
 | [inbox-triager](skills/inbox-triager/SKILL.md) | Sorts pasted emails into Act now / Reply / Read later / Archive. Drafts only, never sends. |
 | [game-guide-summarizer](skills/game-guide-summarizer/SKILL.md) | Turns a long game guide or patch notes into a short, spoiler-aware cheat sheet. |
 | [security-watch](skills/security-watch/SKILL.md) | Read-only check of your projects against a dated table of patched PHP, Node, Next.js and React versions and two known malicious packages (last verified 2026-10-23). Reports what to update with sources; changes nothing without your OK. |
+| [agents-md-check](skills/agents-md-check/SKILL.md) | Drift and safety check for AGENTS.md / CLAUDE.md: fails if CLAUDE.md doesn't import AGENTS.md, imports or file paths point at files that no longer exist, AGENTS.md is over Codex's 32 KiB default, or a personal CLAUDE.local.md is hiding AGENTS.md from Claude Code. Bundled script: `skills/agents-md-check/scripts/check_agents_md.sh` (run in CI). |
 
 ### `rules/` : Cursor rules (.mdc)
 
