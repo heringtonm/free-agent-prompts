@@ -6,7 +6,7 @@
     {
       "name": "free-agent-prompts",
       "source": "./",
-      "description": "7 free Agent Skills: done-check, code reviewer, bug explainer, README writer, inbox triager, game guide summarizer, security watch.",
+      "description": "8 free Agent Skills: done-check, code reviewer, bug explainer, README writer, inbox triager, game guide summarizer, security watch, agents-md-check.",
       "version": "1.0.0",
       "author": { "name": "Michael Herington" },
       "homepage": "https://agentpromptsatoz.com",
